@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Server_Auction">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Project_Auction_Online/Server_Auction/dist/Server_Auction.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

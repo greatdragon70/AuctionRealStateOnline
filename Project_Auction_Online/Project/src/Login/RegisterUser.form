@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabelPhone" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelCaptcha" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelAddress" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelGmail" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelAge" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabelName" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jTextFieldPhone" pref="82" max="32767" attributes="0"/>
+                              <Component id="jTextFieldAddress" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jTextFieldGmail" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jTextFieldAge" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jTextFieldName" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabelCaptchaResult" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jLabelNameError" pref="50" max="32767" attributes="0"/>
+                              <Component id="jLabelAgeError" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabelGmailError" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabelAdressError" max="32767" attributes="0"/>
+                              <Component id="jLabelPhoneError" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabelPassword" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelUsername" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jPasswordFieldPassword" max="32767" attributes="0"/>
+                                          <Component id="jTextFieldUsername" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jLabelConfirmPassword" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="jLabelEnterCaptcha" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="jPasswordFieldConfirmPassword" alignment="1" min="-2" pref="105" max="-2" attributes="0"/>
+                                          <Component id="jTextFieldEnterCaptcha" alignment="1" min="-2" pref="105" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabelNationality" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jTextFieldNationality" min="-2" pref="105" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Component id="jCheckBoxShowPassword" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabelUserError" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabelPasswordError" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabelConfirmPasswordError" alignment="0" max="32767" attributes="0"/>
+                              <Component id="jLabelNationalityError" max="32767" attributes="0"/>
+                              <Component id="jLabelCaptchaError" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jLabelTitle" min="-2" pref="186" max="-2" attributes="0"/>
+                          <EmptySpace pref="350" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jCheckBoxAgree" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="81" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="184" max="-2" attributes="0"/>
+              <Component id="jButtonRegister" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+              <Component id="jButtonCancel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="194" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="jLabelTitle" min="-2" pref="66" max="-2" attributes="0"/>
+              <EmptySpace pref="340" max="32767" attributes="0"/>
+              <Component id="jCheckBoxAgree" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jButtonRegister" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jButtonCancel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="120" pref="120" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldName" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelNameError" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelAge" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldAge" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelAgeError" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelGmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldGmail" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelGmailError" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelAdressError" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldPhone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelPhoneError" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelCaptcha" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelCaptchaResult" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabelUserError" min="-2" pref="22" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="jLabelPasswordError" min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelUsername" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jTextFieldUsername" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabelPassword" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jPasswordFieldPassword" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelConfirmPassword" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jPasswordFieldConfirmPassword" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabelConfirmPasswordError" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="jCheckBoxShowPassword" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabelNationality" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jTextFieldNationality" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabelNationalityError" min="-2" pref="22" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabelEnterCaptcha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldEnterCaptcha" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelCaptchaError" min="-2" pref="23" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabelTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Register account"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelAge">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Age"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelGmail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gmail"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelPhone">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelUsername">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Username"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelPassword">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Password"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelConfirmPassword">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Confirm password"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCaptcha">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Captcha"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNationality">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nationality"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBoxAgree">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="I agree with the terms of use"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBoxAgreeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonRegister">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Register"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonRegisterActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButtonCancel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonCancelActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldPhone">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelEnterCaptcha">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Enter captcha"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldEnterCaptcha">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldAddress">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldGmail">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldGmailActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldAge">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldAgeActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldName">
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTextFieldNameMouseClicked"/>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTextFieldNameMouseEntered"/>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTextFieldNameMouseExited"/>
+        <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTextFieldNameMousePressed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldNameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="jPasswordFieldConfirmPassword">
+    </Component>
+    <Component class="javax.swing.JPasswordField" name="jPasswordFieldPassword">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldUsername">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldUsernameActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldNationality">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldNationalityActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCaptchaResult">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNameError">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelAgeError">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelGmailError">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelAdressError">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelPhoneError">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelUserError">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelPasswordError">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelConfirmPasswordError">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNationalityError">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCaptchaError">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBoxShowPassword">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show Password"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBoxShowPasswordActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
